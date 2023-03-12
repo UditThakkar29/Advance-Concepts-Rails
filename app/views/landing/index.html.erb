@@ -1,0 +1,13 @@
+<h1>Landing#index</h1>
+<p>Find me in app/views/landing/index.html.erb</p>
+
+
+<%= form_for @message, remote: true do |form| %>
+  <%= form.text_field :content%>
+  <%= form.submit %>
+<% end %>
+
+
+<div id="msg">
+
+<div>
